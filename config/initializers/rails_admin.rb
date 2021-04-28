@@ -1,5 +1,7 @@
 RailsAdmin.config do |config|
 
+  config.main_app_name = ["Admin Dashboard App", "Admin Panel"]
+
   ### Popular gems integration
 
   ## == Devise ==
