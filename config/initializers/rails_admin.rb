@@ -2,6 +2,15 @@ RailsAdmin.config do |config|
 
   config.main_app_name = ["Admin Dashboard App", "Admin Panel"]
 
+  config.model "Post" do 
+    list do
+      field :id 
+      field :title
+      field :draft_mode
+      field :post_tags
+    end
+  end
+
   ### Popular gems integration
 
   ## == Devise ==
